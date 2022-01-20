@@ -74,7 +74,9 @@ public class GetQuotePublicDataPage extends TestBase {
         nextBtnSecondStep.click();
         Thread.sleep(3000);
         js.executeScript("window.scrollBy(0,-400)");
+        Thread.sleep(2000);
         checkMarried.click();
+        Thread.sleep(2000);
         checkGender.click();
         checkInsuredYes.click();
         Thread.sleep(3000);

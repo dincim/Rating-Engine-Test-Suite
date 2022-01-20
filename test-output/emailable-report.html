@@ -25,28 +25,47 @@ td,th {border:1px solid #009;padding:.25em .5em}
 <body>
 <table cellspacing="0" cellpadding="0" class="testOverview">
 <tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em"><a href="#t1">C:/Users/Murat Dinc/IdeaProjects/RatingEngineTestAutomation</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">98.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">C:/Users/Murat Dinc/IdeaProjects/RatingEngineTestAutomation</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">75.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr id="t1"><th colspan="5">C:/Users/Murat Dinc/IdeaProjects/RatingEngineTestAutomation &#8212; failed</th></tr>
-<tr class="failedodd"><td>re.tests.GetQuoteManuallyTest</td><td><a href="#m1"><b>getQuoteManuallyTest</b>  </a></td><td class="numi">1</td><td>1642487371505</td><td class="numi">53658</td></tr>
+<tr class="failedodd"><td>re.tests.GetQuotePublicDataTest</td><td><a href="#m1"><b>ratingEnginePDTest</b>  </a></td><td class="numi">1</td><td>1642693163890</td><td class="numi">38451</td></tr>
 <tr><th colspan="5">C:/Users/Murat Dinc/IdeaProjects/RatingEngineTestAutomation &#8212; passed</th></tr>
-<tr class="passedodd"><td>re.tests.GetQuotePublicDataTest</td><td><a href="#m2"><b>ratingEnginePDTest</b>  </a></td><td class="numi">1</td><td>1642487429478</td><td class="numi">33950</td></tr>
+<tr class="passedodd"><td>re.tests.GetQuoteManuallyTest</td><td><a href="#m2"><b>getQuoteManuallyTest</b>  </a></td><td class="numi">1</td><td>1642693133817</td><td class="numi">25373</td></tr>
 </table>
 <h1>C:/Users/Murat Dinc/IdeaProjects/RatingEngineTestAutomation</h1>
-<h2 id="m1">re.tests.GetQuoteManuallyTest:getQuoteManuallyTest</h2>
+<h2 id="m1">re.tests.GetQuotePublicDataTest:ratingEnginePDTest</h2>
 <div>
-<div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: [name=&apos;phone&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+<div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//label[@for=&apos;id-maritalStatus-1&apos;]&quot;}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
 System info: host: &apos;DESKTOP-BN9CENM&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Murat Dinc\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:53121}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53121/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e97ca550a1cb2238c7927a64f4c1b18d
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at re.pages.GetQuoteManuallyPage.getQuoteManually(GetQuoteManuallyPage.java:126)
-	at re.tests.GetQuoteManuallyTest.getQuoteManuallyTest(GetQuoteManuallyTest.java:22)
+Command: [fb7f4e02971c0c8544c1efe85f8a080a, findElement {using=xpath, value=//label[@for=&apos;id-maritalStatus-1&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Murat Dinc\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:55644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55644/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fb7f4e02971c0c8544c1efe85f8a080a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at re.pages.GetQuotePublicDataPage.getQuotePublicData(GetQuotePublicDataPage.java:77)
+	at re.tests.GetQuotePublicDataTest.ratingEnginePDTest(GetQuotePublicDataTest.java:23)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -77,6 +96,6 @@ Session ID: e97ca550a1cb2238c7927a64f4c1b18d
 </div>
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">re.tests.GetQuotePublicDataTest:ratingEnginePDTest</h2>
+<h2 id="m2">re.tests.GetQuoteManuallyTest:getQuoteManuallyTest</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

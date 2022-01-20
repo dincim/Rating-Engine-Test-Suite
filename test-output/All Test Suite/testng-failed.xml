@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
   <test thread-count="5" name="C:/Users/Murat Dinc/IdeaProjects/RatingEngineTestAutomation(failed)">
     <classes>
-      <class name="re.tests.GetQuoteManuallyTest">
+      <class name="re.tests.GetQuotePublicDataTest">
         <methods>
-          <include name="getQuoteManuallyTest"/>
+          <include name="ratingEnginePDTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- re.tests.GetQuoteManuallyTest -->
+      </class> <!-- re.tests.GetQuotePublicDataTest -->
     </classes>
   </test> <!-- C:/Users/Murat Dinc/IdeaProjects/RatingEngineTestAutomation(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->
