@@ -1,14 +1,16 @@
 package com.amaxinsurance.tests;
 
 import com.amaxinsurance.pages.ContactUsPage;
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import re.base.BaseTest;
 
 public class ContactUsPageTest extends BaseTest {
-//    public ContactUsPageTest() {
-//        super();
-//    }
+
+    public ContactUsPageTest() {
+        super();
+    }
 
     @Test
     public void verifyContactUsPageTitle() {

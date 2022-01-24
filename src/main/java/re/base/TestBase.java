@@ -16,14 +16,14 @@ public class TestBase {
     // initialize all properties
     // basic init launching browser
 
-     public WebDriver driver;
-     public Properties prop;
+     public static WebDriver driver;
+     public static Properties prop;
 
     // create construction to read properties files
-    public TestBase(WebDriver driver) {
+    public TestBase() {
 
-        this.driver = driver;
-        PageFactory.initElements(this.driver,this);
+//        this.driver = driver;
+//        PageFactory.initElements(this.driver,this);
 
         try {
             prop = new Properties();
