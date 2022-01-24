@@ -3,6 +3,7 @@ package re.base;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.PageFactory;
 import re.util.TestUtil;
 
 import java.io.FileInputStream;
@@ -15,11 +16,15 @@ public class TestBase {
     // initialize all properties
     // basic init launching browser
 
-    static public WebDriver driver;
-    static public Properties prop;
+     public WebDriver driver;
+     public Properties prop;
 
     // create construction to read properties files
-    public TestBase() {
+    public TestBase(WebDriver driver) {
+
+        this.driver = driver;
+        PageFactory.initElements(this.driver,this);
+
         try {
             prop = new Properties();
             FileInputStream ip = new FileInputStream(
@@ -34,7 +39,7 @@ public class TestBase {
     }
 
     // create initialization method
-    public static void initialization() {
+    public void initialization() {
 
         String browserName = prop.getProperty("browser");
 

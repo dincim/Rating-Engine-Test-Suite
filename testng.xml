@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
+<suite name="Autamation Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/Murat Dinc/IdeaProjects/RatingEngineTestAutomation">
-        <classes>
-            <class name="re.tests.GetQuoteManuallyTest">
-                <methods>
-                    <include name="getQuoteManuallyTest"/>
-                </methods>
-            </class>
-            <class name="re.tests.GetQuotePublicDataTest">
-                <methods>
-                    <include name="ratingEnginePDTest"/>
-                </methods>
-            </class>
-        </classes>
+        <packages>
+            <package name="com.amaxinsurance.tests"></package>
+            <package name="re.tests"></package>
+        </packages>
+<!--        <classes>-->
+<!--            <class name="re.tests.GetQuoteManuallyTest">-->
+<!--                <methods>-->
+<!--                    <include name="getQuoteManuallyTest"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="re.tests.GetQuotePublicDataTest">-->
+<!--                <methods>-->
+<!--                    <include name="ratingEnginePDTest"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
     </test>
 </suite>
