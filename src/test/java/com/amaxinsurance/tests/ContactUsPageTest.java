@@ -17,7 +17,7 @@ public class ContactUsPageTest extends BaseTest {
         ContactUsPage contactUsPage=new ContactUsPage();
         contactUsPage.getContactUsPageTitle();
         String title = driver.getTitle();
-        System.out.println(title);
+        //System.out.println(title);
         Assert.assertEquals("Contact Us | A-MAX", title,"title does not match");
     }
 }

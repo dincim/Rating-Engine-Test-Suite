@@ -6,7 +6,6 @@ import org.testng.annotations.BeforeClass;
 
 public class BaseTest extends TestBase{
 
-
     @BeforeClass
     public void setUp() {
         initialization();

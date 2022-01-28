@@ -11,6 +11,7 @@ import re.base.TestBase;
 public class BoatsAndWatercraftPageQuoteTest extends BaseTest {
 
     public BoatsAndWatercraftPageQuoteTest() {
+
         super();
     }
 //    @BeforeMethod
@@ -25,7 +26,7 @@ public class BoatsAndWatercraftPageQuoteTest extends BaseTest {
         boatsAndWatercraftQuotePage.getTitleOfBoatsAndWatercraftQuotePage();
 
         String title = driver.getTitle();
-        System.out.println(title);
+        //System.out.println(title);
         Assert.assertEquals("Boat & Watercraft Insurance | A-MAX", title);
     }
 
