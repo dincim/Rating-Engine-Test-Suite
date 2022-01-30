@@ -11,7 +11,7 @@ public class GeneralLiabilityQuotePageTest extends BaseTest {
     }
 
     @Test
-    public void getGeneralLiabilityQuotePageTitle() throws Exception {
+    public void verifyPageTitle() throws Exception {
         GeneralLiabilityQuotePage generalLiabilityQuotePage=new GeneralLiabilityQuotePage();
         generalLiabilityQuotePage.getTitle();
         String actualTitle = driver.getTitle();

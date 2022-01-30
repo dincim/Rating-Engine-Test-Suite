@@ -11,7 +11,7 @@ public class MexicoTouristQuotePageTest extends BaseTest {
     }
 
     @Test
-    public void verifyMexicoTQuotePageTitle() {
+    public void verifyPageTitle() {
         MexicoTouristQuotePage mexicoTouristQuotePageTest = new MexicoTouristQuotePage();
         String actualPageTitle = mexicoTouristQuotePageTest.verifyPageTitle();
         Assert.assertEquals(actualPageTitle,"Mexico Tourist Insurance | A-MAX");

@@ -21,13 +21,12 @@ public class BoatsAndWatercraftPageQuoteTest extends BaseTest {
 //    }
 
     @Test
-    public void verifyBoatsAndWCPageTitletest() throws Exception {
+    public void verifyPageTitle() throws Exception {
         BoatsAndWatercraftQuotePage boatsAndWatercraftQuotePage= new BoatsAndWatercraftQuotePage();
-        boatsAndWatercraftQuotePage.getTitleOfBoatsAndWatercraftQuotePage();
 
-        String title = driver.getTitle();
+        String actualPageTitle = boatsAndWatercraftQuotePage.getTitleOfBoatsAndWatercraftQuotePage();
         //System.out.println(title);
-        Assert.assertEquals("Boat & Watercraft Insurance | A-MAX", title);
+        Assert.assertEquals(actualPageTitle,"Boat & Watercraft Insurance | A-MAX");
     }
 
 //    @AfterMethod

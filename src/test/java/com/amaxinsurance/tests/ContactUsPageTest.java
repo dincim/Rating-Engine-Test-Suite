@@ -13,7 +13,7 @@ public class ContactUsPageTest extends BaseTest {
     }
 
     @Test
-    public void verifyContactUsPageTitle() {
+    public void verifyPageTitle() {
         ContactUsPage contactUsPage=new ContactUsPage();
         contactUsPage.getContactUsPageTitle();
         String title = driver.getTitle();

@@ -11,7 +11,7 @@ public class NotaryServicesQuotePageTest extends BaseTest {
     }
 
     @Test
-    public void getPageTitle(){
+    public void verifyPageTitle(){
         NotaryServicesQuotePage notaryServicesQuotePage = new NotaryServicesQuotePage();
         String actualPageTitle = notaryServicesQuotePage.verifyPageTitle();
         Assert.assertEquals(actualPageTitle,"Notary Public Services");

@@ -7,9 +7,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import re.base.BaseTest;
 import re.base.TestBase;
 
-public class GetQuotePublicDataPage extends TestBase {
+public class GetQuotePublicDataPage extends BaseTest {
 
     @FindBy(xpath = "//input[@id='form-text-1424848195']")
     WebElement zipCode;

@@ -12,7 +12,7 @@ public class CommercialAutoQuotePageTest extends BaseTest {
         super();
     }
     @Test
-    public void verifycommercialAutoQuoteTitle() throws Exception {
+    public void verifyPageTitle() throws Exception {
         CommercialAutoQuotePage commercialAutoQuotePage= new CommercialAutoQuotePage();
         commercialAutoQuotePage.getCommercialAutoQuotePageTitle();
         String title = driver.getTitle();

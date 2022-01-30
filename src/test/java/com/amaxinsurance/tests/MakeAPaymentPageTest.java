@@ -11,7 +11,7 @@ public class MakeAPaymentPageTest extends BaseTest {
         super();
     }
     @Test
-    public void verifyMakeAPaymentPageTitleTest() {
+    public void verifyPageTitle() {
         MakeAPaymentPage makeAPaymentPage = new MakeAPaymentPage();
         String makeaPaymentPageTitle = makeAPaymentPage.verifyMakeApaymentPageTitle();
         Assert.assertEquals(makeaPaymentPageTitle, "Make a Payment | A-MAX", "Failed. Title mismatched");

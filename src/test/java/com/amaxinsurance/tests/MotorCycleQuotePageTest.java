@@ -11,7 +11,7 @@ public class MotorCycleQuotePageTest extends BaseTest {
     }
 
     @Test
-    public void getMotorCyclePageTitle(){
+    public void verifyPageTitle(){
         MotorCycleQuotePage motorCycleQuotePage = new MotorCycleQuotePage();
         String actualPageTitle = motorCycleQuotePage.verifyPageTitle();
         Assert.assertEquals(actualPageTitle,"Motorcycle Insurance | A-MAX");

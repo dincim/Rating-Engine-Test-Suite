@@ -11,7 +11,7 @@ public class MakaAClaimPageTest extends BaseTest {
     }
 
     @Test
-    public void verifyMakeAClaimPageTitleTest() {
+    public void verifyPageTitle() {
         MakeAClaimPage makeAClaimPage = new MakeAClaimPage();
         String makeaClaimPageTitle = makeAClaimPage.verifyMakeAClaimPageTitle();
         Assert.assertEquals(makeaClaimPageTitle, "Make a Claim | A-MAX", "Failed. Title mismatched");

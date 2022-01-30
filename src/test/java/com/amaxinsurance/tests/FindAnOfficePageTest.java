@@ -9,7 +9,7 @@ import re.base.TestBase;
 public class FindAnOfficePageTest extends BaseTest {
 
     @Test
-    public void getFindAnOfficePageTitle(){
+    public void verifyPageTitle(){
         FindAnOfficePage findAnOfficePage =new FindAnOfficePage();
         findAnOfficePage.getFindAnOfficePageTitle();
         String pageTitle = driver.getTitle();

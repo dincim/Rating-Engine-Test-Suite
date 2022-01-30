@@ -14,7 +14,7 @@ public class MobileHomeQuotePageTest extends BaseTest {
     }
 
    @Test
-    public void verifyMobileHPageTitle() {
+    public void verifyPageTitle() {
        MobileHomeQuotePage mobileHomeQuotePage = new MobileHomeQuotePage();
        String actualPageTitle = mobileHomeQuotePage.verifyPageTitle();
        Assert.assertEquals(actualPageTitle,"Mobile Home Insurance | A-MAX");
