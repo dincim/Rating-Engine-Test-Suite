@@ -21,7 +21,7 @@ public class BoatsAndWatercraftPageQuoteTest extends BaseTest {
 //    }
 
     @Test
-    public void verifyPageTitle() throws Exception {
+    public void verifyPageTitle() {
         BoatsAndWatercraftQuotePage boatsAndWatercraftQuotePage= new BoatsAndWatercraftQuotePage();
 
         String actualPageTitle = boatsAndWatercraftQuotePage.getTitleOfBoatsAndWatercraftQuotePage();

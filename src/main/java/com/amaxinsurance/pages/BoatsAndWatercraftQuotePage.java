@@ -14,10 +14,9 @@ public class BoatsAndWatercraftQuotePage extends TestBase {
     public BoatsAndWatercraftQuotePage() {
         PageFactory.initElements(driver, this);
     }
-    public String getTitleOfBoatsAndWatercraftQuotePage() throws Exception {
+    public String getTitleOfBoatsAndWatercraftQuotePage(){
 
         getInsuranceLink.click();
-        Thread.sleep(3000);
         boatsAndWCLink.click();
         return driver.getTitle();
     }
