@@ -27,7 +27,7 @@ public class GetQuotePublicDataPage extends BaseTest {
     @FindBy(xpath = "//button[@class='c-btn-red custom-hover filled block']")
     WebElement nextBtnSecondStep;
 
-    @FindBy(xpath = "//*[@id=\"otherFields\"]/div/div[2]/div/div[1]/div/div/label[2]/div/div[1]")
+    @FindBy(xpath = "//label[@for='id-maritalStatus-1']")
     WebElement checkMarried;
     @FindBy(xpath = "//label[@for='id-gender-0']")
     WebElement checkGender;
@@ -75,9 +75,8 @@ public class GetQuotePublicDataPage extends BaseTest {
         nextBtnSecondStep.click();
         Thread.sleep(3000);
         js.executeScript("window.scrollBy(0,-400)");
-        Thread.sleep(3000);
+
         checkMarried.click();
-        Thread.sleep(2000);
         checkGender.click();
         checkInsuredYes.click();
         Thread.sleep(3000);
