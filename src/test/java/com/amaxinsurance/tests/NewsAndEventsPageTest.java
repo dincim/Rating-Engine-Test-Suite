@@ -16,6 +16,6 @@ public class NewsAndEventsPageTest extends BaseTest {
         NewsAndEventsPage newsAndEventsPage = new NewsAndEventsPage();
         String actualPageTitle = newsAndEventsPage.getPageTitle();
 
-        Assert.assertEquals(actualPageTitle,"News Events");
+        Assert.assertEquals(actualPageTitle,"News & Events | A-MAX");
     }
 }
