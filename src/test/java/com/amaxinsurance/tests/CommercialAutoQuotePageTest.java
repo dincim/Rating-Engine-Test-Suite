@@ -16,7 +16,7 @@ public class CommercialAutoQuotePageTest extends BaseTest {
         CommercialAutoQuotePage commercialAutoQuotePage= new CommercialAutoQuotePage();
         commercialAutoQuotePage.getCommercialAutoQuotePageTitle();
         String actualTitle = driver.getTitle();
-        System.out.println(title);
+        System.out.println(actualTitle);
         Assert.assertEquals(actualTitle,"Commercial Auto Insurance | A-MAX");
     }
 }
