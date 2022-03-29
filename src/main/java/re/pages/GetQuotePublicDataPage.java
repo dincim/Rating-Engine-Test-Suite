@@ -47,9 +47,9 @@ public class GetQuotePublicDataPage extends BaseTest {
     @FindBy(xpath = "//button[@class='c-btn-red custom-hover m-b-20 multiLine filled block']")
     WebElement nextBtnToQuote;
 
-    @FindBy(xpath = "//input[@type='tel']")
+    @FindBy(xpath = "//input[@name='phone']")
     WebElement phoneField;
-    @FindBy(xpath = "//input[@name='email']")
+    @FindBy(xpath = "//input[@name='tests']")
     WebElement emailField;
     @FindBy(xpath = "//span[contains(text(),'Continue')]")
     WebElement continueBtn;
