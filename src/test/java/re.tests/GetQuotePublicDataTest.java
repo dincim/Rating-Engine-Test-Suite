@@ -9,8 +9,6 @@ import re.pages.GetQuotePublicDataPage;
 
 public class GetQuotePublicDataTest extends BaseTest {
 
-
-
     public GetQuotePublicDataTest() {
         super();
     }

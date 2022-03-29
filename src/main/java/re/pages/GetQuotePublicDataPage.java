@@ -27,7 +27,7 @@ public class GetQuotePublicDataPage extends BaseTest {
     @FindBy(xpath = "//button[@class='c-btn-red custom-hover filled block']")
     WebElement nextBtnSecondStep;
 
-    @FindBy(xpath = "//label[@for='id-maritalStatus-1']")
+    @FindBy(xpath = "//*[@id=\"otherFields\"]/div/div[2]/div/div[1]/div/div/label[2]/div/div[1]")
     WebElement checkMarried;
     @FindBy(xpath = "//label[@for='id-gender-0']")
     WebElement checkGender;
