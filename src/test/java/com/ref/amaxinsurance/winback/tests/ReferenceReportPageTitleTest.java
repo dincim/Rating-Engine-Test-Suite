@@ -17,7 +17,7 @@ public class ReferenceReportPageTitleTest {
     @BeforeMethod
     void setUp() {
         System.setProperty("webdriver.chrome.driver",
-                "C:\\SeleniumDrivers\\chromedriver.exe");
+                "C:\\SeleniumDrivers\\chromedriver_100.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().window().maximize();

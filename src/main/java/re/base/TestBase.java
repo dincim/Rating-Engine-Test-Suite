@@ -45,7 +45,7 @@ public class TestBase {
 
         if (browserName.equals("chrome")) {
             System.setProperty("webdriver.chrome.driver",
-                    "C:\\SeleniumDrivers\\chromedriver.exe");
+                    "C:\\SeleniumDrivers\\chromedriver_100.exe");
             driver = new ChromeDriver();
         }else if(browserName.equals("FF")) {
             System.setProperty("webdriver.gecko.driver",

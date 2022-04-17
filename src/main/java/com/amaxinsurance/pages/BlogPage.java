@@ -4,8 +4,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import re.base.BaseTest;
+import re.base.TestBase;
 
-public class BlogPage extends BaseTest {
+public class BlogPage extends TestBase {
 
     @FindBy(xpath = "//button[contains(text(),'About A-MAX')]")
     WebElement aboutAmaxLink;
