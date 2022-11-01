@@ -28,8 +28,7 @@ public class TestBase {
         try {
             prop = new Properties();
             FileInputStream ip = new FileInputStream(
-                    "C:\\Users\\Murat Dinc\\IdeaProjects\\RatingEngineTestAutomation" +
-                            "\\src\\main\\java\\re\\config\\config.properties");
+                    "/Users/mattdinc/Documents/Rating-Engine-Test-Suite/src/main/java/re/config/config.properties");
             prop.load(ip);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -45,7 +44,7 @@ public class TestBase {
 
         if (browserName.equals("chrome")) {
             System.setProperty("webdriver.chrome.driver",
-                    "C:\\SeleniumDrivers\\chromedriver_100.exe");
+                    "/Users/mattdinc/Documents/drivers/chromedriver");
             driver = new ChromeDriver();
         }else if(browserName.equals("FF")) {
             System.setProperty("webdriver.gecko.driver",

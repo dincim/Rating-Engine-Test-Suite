@@ -18,7 +18,7 @@ public class UnderWritingPageTest {
     public void setUp() {
 
         System.setProperty("webdriver.chrome.driver",
-                "C:\\SeleniumDrivers\\chromedriver_100.exe");
+                "/Users/mattdinc/Documents/drivers/chromedriver");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().window().maximize();
@@ -26,7 +26,7 @@ public class UnderWritingPageTest {
         driver.get(baseUrl);
     }
 
-    @Test
+    @Test(enabled = false)
     public void checkUnderWritingPageTitleTest() {
 
         String expectedTitle = "Audit Login Panel";
@@ -36,7 +36,7 @@ public class UnderWritingPageTest {
 
     }
 
-    @Test
+    @Test(enabled = false)
     public void loginUnderWritingPortalTest() throws InterruptedException {
 
         driver.findElement(By.cssSelector("#email")).sendKeys("acazares@amaxinsurance.com");

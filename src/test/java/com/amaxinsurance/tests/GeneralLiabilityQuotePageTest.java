@@ -15,6 +15,6 @@ public class GeneralLiabilityQuotePageTest extends BaseTest {
         GeneralLiabilityQuotePage generalLiabilityQuotePage=new GeneralLiabilityQuotePage();
         generalLiabilityQuotePage.getTitle();
         String actualTitle = driver.getTitle();
-        Assert.assertEquals("Commercial General Liability | A-MAX",actualTitle);
+        Assert.assertEquals(actualTitle,"Commercial General Liability | A-MAX");
     }
 }

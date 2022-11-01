@@ -16,8 +16,9 @@ public class Sr22QuotePage extends BaseTest {
         PageFactory.initElements(driver,this);
     }
 
-    public String getPageTitle(){
+    public String getPageTitle() throws InterruptedException {
         getInsuranceLink.click();
+        Thread.sleep(2000);
         sr22Link.click();
 
         return driver.getTitle();

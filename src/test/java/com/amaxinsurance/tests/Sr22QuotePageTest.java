@@ -11,7 +11,7 @@ public class Sr22QuotePageTest extends BaseTest {
     }
 
     @Test
-    public void verifyPageTitle(){
+    public void verifyPageTitle() throws InterruptedException {
         Sr22QuotePage sr22QuotePage = new Sr22QuotePage();
         String actualPageTitle = sr22QuotePage.getPageTitle();
         Assert.assertEquals(actualPageTitle,"SR-22 Insurance | A-MAX");

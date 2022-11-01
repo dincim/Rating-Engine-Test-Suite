@@ -12,8 +12,8 @@ public class BaseTest extends TestBase{
     }
 
     @AfterMethod
-    public void tearDown() {
-        driver.quit();
+   public void tearDown() {
+        //driver.quit();
     }
 }
 

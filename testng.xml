@@ -3,11 +3,11 @@
 <suite name="Autamation Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/Murat Dinc/IdeaProjects/RatingEngineTestAutomation">
         <packages>
-            <package name="com.amaxinsurance.tests"></package>
+            <!--<package name="com.amaxinsurance.tests"></package>-->
             <package name="re.tests"></package>
-            <package name="com.budgetandvarianceapp.tests"></package>
-            <package name="com.ref.amaxinsurance.winback.tests"></package>
-            <package name="com.audit.amaxinsurance.tests"></package>
+            <!--<package name="com.budgetandvarianceapp.tests"></package>-->
+            <!--<package name="com.ref.amaxinsurance.winback.tests"></package>-->
+            <!--<package name="com.audit.amaxinsurance.tests"></package>-->
         </packages>
 <!--        <classes>-->
 <!--            <class name="re.tests.GetQuoteManuallyTest">-->

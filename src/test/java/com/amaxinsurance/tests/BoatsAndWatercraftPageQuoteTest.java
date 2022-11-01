@@ -24,7 +24,7 @@ public class BoatsAndWatercraftPageQuoteTest extends BaseTest {
     public void verifyPageTitle() {
         BoatsAndWatercraftQuotePage boatsAndWatercraftQuotePage= new BoatsAndWatercraftQuotePage();
 
-        String actualPageTitle = boatsAndWatercraftQuotePage.getTitleOfBoatsAndWatercraftQuotePage();
+        String actualPageTitle = boatsAndWatercraftQuotePage.verifPageTitle();
         //System.out.println(title);
         Assert.assertEquals(actualPageTitle,"Boat & Watercraft Insurance | A-MAX");
     }

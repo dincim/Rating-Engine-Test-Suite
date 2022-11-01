@@ -8,70 +8,76 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import re.base.BaseTest;
 import re.base.TestBase;
 
 public class GetQuoteManuallyPage extends BaseTest {
 
-    @FindBy(xpath = "//input[@id='form-text-1424848195']")
+    @FindBy(xpath = "//*[@id=\"container-b6c3c4c729\"]/div/div[1]/div/input")
     WebElement zipCode;
-    @FindBy(xpath = "//button[@id='form-button-314788994']")
+    @FindBy(xpath = "//*[@id=\"container-b6c3c4c729\"]/div/div[2]/button")
     WebElement getQuoteBtn;
 
-
-    @FindBy(xpath = "//input[@name='name']")
-    WebElement nameInput;
-    @FindBy(xpath = "//input[@name='surname']")
-    WebElement lNameInput;
-    @FindBy(xpath = "//button[@class='circle-button']")
+    @FindBy(id = "driver-firstname")
+    WebElement driverFirstName;
+    @FindBy(id = "driver-lastname")
+    WebElement driverLastName;
+    @FindBy(id = "dateofbirth")
     WebElement circleBtn;
 
-    @FindBy(xpath = "//select[@class='react-datepicker__month-select']")
-    WebElement monthSelect;
-    @FindBy(xpath = "//select[@class='react-datepicker__year-select']")
-    WebElement yearSelect;
-    @FindBy(xpath = "//div[@class='react-datepicker__day react-datepicker__day--010']")
-    WebElement daySelect;
-    @FindBy(xpath = "//div[@class='pointer custom-checkbox']")
-    WebElement checkBox;
-    @FindBy(xpath = "//button[@class='c-btn-red custom-hover filled block']")
-    WebElement nxtBtnfirstStep;
+    @FindBy(xpath = "//a[@class='cmp-button cmp-quote__button--start']")
+    WebElement startBtn;
 
-    @FindBy(xpath = "//input[@name='detail']")
-    WebElement addressInput;
-    @FindBy(xpath = "//button[@class='c-btn-red custom-hover filled block']")
-    WebElement nextBtnSecondStep;
+    @FindBy(xpath = "//input[@id='driver-email']")
+    WebElement driverEmail;
+    @FindBy(xpath = "//input[@id='driver-phone']")
+    WebElement driverPhone;
+    @FindBy(xpath = "//input[@id='driver-privatepolicy']")
+    WebElement policyCheckBox;
+    @FindBy(xpath = "//*[@id=\"container-1d368398d6\"]/div/div/div/div[2]/div[2]/div[3]/div[2]/a[2]")
+    WebElement nextBtn;
 
-    @FindBy(xpath = "//label[@for='id-maritalStatus-1']")
-    WebElement checkMarried;
-    @FindBy(xpath = "//label[@for='id-gender-0']")
-    WebElement checkGender;
-    @FindBy(xpath = "//label[@for='id-isInsured-0']")
-    WebElement checkInsuredYes;
-    @FindBy(xpath = "//button[contains(text(),'Next')]")
-    WebElement nextBtnNextThirdStep;
+    @FindBy(xpath = "//*[@id='driver-driveraddress']")
+    WebElement driverAddress;
 
-    @FindBy(xpath = "//button[@class='list-group-item list-group-item-action'][4]")
+    @FindBy(xpath = "//*[@id='male']")
+    WebElement driverGender;
+    @FindBy(xpath = "//*[@id='single']")
+    WebElement driverMaritalStatus;
+    @FindBy(xpath = "//*[@id='insured']")
+    WebElement driverInsuredStatus;
+    @FindBy(xpath = "//*[@id=\"container-1d368398d6\"]/div/div/div/div[2]/div[3]/div[11]/a[2]")
+    WebElement driverSummaryNextBtn;
+
+    @FindBy(xpath = "//*[@id=\"container-1d368398d6\"]/div/div/div/div[2]/div[4]/div[6]/a[2]")
+    WebElement vehicleNextBtn;
+
+    @FindBy(id = "vehicle-year")
     WebElement selectCarYear;
-    @FindBy(xpath = "//button[@class='list-group-item list-group-item-action'][15]")
+    @FindBy(id = "vehicle-make")
     WebElement selectCarMake;
-    @FindBy(xpath = "//button[@class='list-group-item list-group-item-action'][3]")
+    @FindBy(id = "vehicle-model")
     WebElement selectCarModel;
-    @FindBy(xpath = "//button[contains(text(),'Next')]")
-    WebElement nextBtnAfterCarSelect;
 
-    @FindBy(xpath = "//button[@class='c-btn-red custom-hover m-b-20 multiLine filled block']")
-    WebElement nextBtnToQuote;
+    @FindBy(xpath = "//*[@id=\"myModal\"]/div/div[3]/div/a")
+    WebElement addVehicleBtn;
 
-    @FindBy(xpath = "//input[@name='phone']")
-    WebElement phoneField;
-    @FindBy(xpath = "//input[@name='tests']")
-    WebElement emailField;
-    @FindBy(xpath = "//span[contains(text(),'Continue')]")
-    WebElement continueBtn;
+    @FindBy(xpath = "//*[@id=\"container-1d368398d6\"]/div/div/div/div[3]/div/div[4]/a[2]")
+    WebElement nextPolicyBtn;
 
-    @FindBy(xpath = "//button[@class='swal2-confirm swal2-styled']")
-    WebElement okBtn;
+    @FindBy (xpath = "//input[@id='0']")
+    WebElement covMinStateLiability;
+
+    @FindBy (xpath = "//*[@id=\"container-1d368398d6\"]/div/div/div/div[4]/div/div[6]/a[2]")
+    WebElement finishBtn;
+
+    @FindBy(xpath = ("//*[@id=\"container-1d368398d6\"]/div/div/div/div[5]/div/div[5]/div[2]/div/div[2]/div[3]/div[2]/a"))
+    WebElement buyNowBtn;
+
+    @FindBy(xpath = "//*[@id='logo2']")
+    WebElement buyNowAmaxLogo;
+
 
     public GetQuoteManuallyPage(){
         PageFactory.initElements(driver,this);
@@ -80,55 +86,69 @@ public class GetQuoteManuallyPage extends BaseTest {
     public void getQuoteManually() throws InterruptedException {
         zipCode.sendKeys("75074");
         getQuoteBtn.click();
-
-        nameInput.sendKeys("Murat");
-        lNameInput.sendKeys("Tester");
-        circleBtn.click();
         Thread.sleep(2000);
 
-        Select dobMonth = new Select(monthSelect);
-        dobMonth.selectByVisibleText("January");
-
-        Select dobYear = new Select(yearSelect);
-        dobYear.selectByValue("2000");
-        daySelect.click();
-        JavascriptExecutor js = (JavascriptExecutor)driver;
-        js.executeScript("window.scrollBy(0,300)");
-        Thread.sleep(1000);
-        checkBox.click();
+        driverFirstName.sendKeys("Murat");
+        driverLastName.sendKeys("Tester");
+        circleBtn.sendKeys("01012000");
         Thread.sleep(2000);
-        nxtBtnfirstStep.click();
 
-        js.executeScript("window.scrollBy(0,-200)");
-        addressInput.sendKeys("380 Vistacourt Dr");
-        nextBtnSecondStep.click();
+        JavascriptExecutor j = (JavascriptExecutor) driver;
+        j.executeScript("window.scrollBy(0,350)", "");
 
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();",startBtn);
+        //startBtn.click();
+        Thread.sleep(2000);
+
+
+        driverEmail.sendKeys("test@mail.com");
+        driverPhone.sendKeys("1111111111");
+        policyCheckBox.click();
+        Thread.sleep(2000);
+        nextBtn.click();
+
+        driverAddress.sendKeys("61 Plano");
+        driverGender.click();
+        driverMaritalStatus.click();
+        driverInsuredStatus.click();
+        Thread.sleep(2000);
+
+
+        js.executeScript("arguments[0].click();",driverSummaryNextBtn);
+//      driverSummaryNextBtn.click();
+        Thread.sleep(2000);
+
+
+        js.executeScript("arguments[0].click();",vehicleNextBtn);
+       // vehicleNextBtn.click();
+        Thread.sleep(2000);
+
+        Select drpVehicleYear = new Select(selectCarYear);
+        drpVehicleYear.selectByVisibleText("2021");
         Thread.sleep(3000);
-        js.executeScript("window.scrollBy(0,-400)");
-        checkMarried.click();
-        checkGender.click();
-        checkInsuredYes.click();
+        Select drpVehicleMake = new Select(selectCarMake);
+        drpVehicleMake.selectByVisibleText("ACURA");
         Thread.sleep(3000);
-        nextBtnNextThirdStep.click();
-
-        selectCarYear.click();
-        Thread.sleep(1000);
-        selectCarMake.click();
-        Thread.sleep(1000);
-        selectCarModel.click();
-        Thread.sleep(1000);
-        nextBtnAfterCarSelect.click();
+        Select drpVehicleModel = new Select(selectCarModel);
+        drpVehicleModel.selectByVisibleText("MDX");
         Thread.sleep(3000);
-        js.executeScript("window.scrollBy(0,600)");
-        nextBtnToQuote.click();
+        addVehicleBtn.click();
+        Thread.sleep(2000);
 
-        WebDriverWait wait=new WebDriverWait(driver, 20);
-        WebElement phone ;
-        phone = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("[name='phone']")));
-        phone.sendKeys("11111111111");
-        emailField.sendKeys("tester@test.co");
-        continueBtn.click();
-        okBtn.click();
+        nextPolicyBtn.click();
+
+        covMinStateLiability.click();
+        Thread.sleep(2000);
+
+        finishBtn.click();
+        Thread.sleep(3000);
+
+        buyNowBtn.click();
+
+        buyNowAmaxLogo.isDisplayed();
+
+
     }
 
 }

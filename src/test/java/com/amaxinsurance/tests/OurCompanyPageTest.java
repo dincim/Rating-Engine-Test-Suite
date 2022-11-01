@@ -18,6 +18,6 @@ public class OurCompanyPageTest extends BaseTest {
        OurCompanyPage ourCompanyPage = new OurCompanyPage();
        String actualPageTitle = ourCompanyPage.getPageTitle();
 
-       Assert.assertEquals(actualPageTitle,"Our Company");
+       Assert.assertEquals(actualPageTitle,"Our Company | A-MAX");
    }
 }

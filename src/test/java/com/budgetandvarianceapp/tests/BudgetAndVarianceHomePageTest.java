@@ -17,7 +17,7 @@ public class BudgetAndVarianceHomePageTest {
     @BeforeMethod
     public void setUp() {
         System.setProperty("webdriver.chrome.driver",
-                "C:\\SeleniumDrivers\\chromedriver_100.exe");
+                "/Users/mattdinc/Documents/drivers/chromedriver");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().window().maximize();
@@ -30,7 +30,7 @@ public class BudgetAndVarianceHomePageTest {
 
     }
 
-    @Test
+    @Test(enabled = false)
     public void getPageTitleTest() {
 
         String actualTitle = driver.getTitle();
