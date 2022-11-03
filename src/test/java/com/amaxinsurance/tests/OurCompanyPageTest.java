@@ -13,7 +13,7 @@ public class OurCompanyPageTest extends BaseTest {
         super();
     }
 
-   @Test
+   @Test(enabled = false)
     public void verifyPageTitle(){
        OurCompanyPage ourCompanyPage = new OurCompanyPage();
        String actualPageTitle = ourCompanyPage.getPageTitle();

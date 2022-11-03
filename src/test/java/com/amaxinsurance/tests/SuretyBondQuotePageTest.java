@@ -10,7 +10,7 @@ public class SuretyBondQuotePageTest extends BaseTest {
         super();
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyPageTitle(){
         SuretyBondQuotePage suretyBondQuotePage = new SuretyBondQuotePage();
         String actualPageTitle = suretyBondQuotePage.getPageTitle();

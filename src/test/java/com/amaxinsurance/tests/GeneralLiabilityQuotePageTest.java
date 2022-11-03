@@ -10,7 +10,7 @@ public class GeneralLiabilityQuotePageTest extends BaseTest {
         super();
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyPageTitle() throws Exception {
         GeneralLiabilityQuotePage generalLiabilityQuotePage=new GeneralLiabilityQuotePage();
         generalLiabilityQuotePage.getTitle();

@@ -10,7 +10,7 @@ public class MakaAClaimPageTest extends BaseTest {
         super();
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyPageTitle() {
         MakeAClaimPage makeAClaimPage = new MakeAClaimPage();
         String makeaClaimPageTitle = makeAClaimPage.verifyMakeAClaimPageTitle();

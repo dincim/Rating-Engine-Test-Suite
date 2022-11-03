@@ -10,7 +10,7 @@ public class ReferAFriendPageTest extends BaseTest {
         super();
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyPageTitle(){
         ReferAFriendPage referAFriendPage = new ReferAFriendPage();
         String actualPageTitle = referAFriendPage.getPageTitle();

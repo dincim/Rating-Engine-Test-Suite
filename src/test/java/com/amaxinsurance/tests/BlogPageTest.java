@@ -12,7 +12,7 @@ public class BlogPageTest extends BaseTest {
         super();
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyPageTitle(){
         BlogPage blogPage = new BlogPage();
         String actualPageTitle = blogPage.getPageTitle();

@@ -13,7 +13,7 @@ public class MobileHomeQuotePageTest extends BaseTest {
         super();
     }
 
-   @Test
+   @Test(enabled = false)
     public void verifyPageTitle() {
        MobileHomeQuotePage mobileHomeQuotePage = new MobileHomeQuotePage();
        String actualPageTitle = mobileHomeQuotePage.verifyPageTitle();

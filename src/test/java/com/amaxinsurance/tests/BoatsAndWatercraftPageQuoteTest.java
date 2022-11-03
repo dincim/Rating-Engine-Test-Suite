@@ -20,7 +20,7 @@ public class BoatsAndWatercraftPageQuoteTest extends BaseTest {
 //        boatsAndWatercraftQuotePage = new BoatsAndWatercraftQuotePage();
 //    }
 
-    @Test
+    @Test(enabled = false)
     public void verifyPageTitle() {
         BoatsAndWatercraftQuotePage boatsAndWatercraftQuotePage= new BoatsAndWatercraftQuotePage();
 

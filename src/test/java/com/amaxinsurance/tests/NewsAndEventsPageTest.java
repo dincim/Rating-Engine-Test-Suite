@@ -11,7 +11,7 @@ public class NewsAndEventsPageTest extends BaseTest {
         super();
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyPageTitle(){
         NewsAndEventsPage newsAndEventsPage = new NewsAndEventsPage();
         String actualPageTitle = newsAndEventsPage.getPageTitle();

@@ -10,7 +10,7 @@ public class RVQuotePageTest extends BaseTest {
         super();
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyPageTitle(){
         RVQuotePage rVQuotePage = new RVQuotePage();
         String actualPageTitle = rVQuotePage.getPageTitle();

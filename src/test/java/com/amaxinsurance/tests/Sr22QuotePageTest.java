@@ -10,7 +10,7 @@ public class Sr22QuotePageTest extends BaseTest {
         super();
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyPageTitle() throws InterruptedException {
         Sr22QuotePage sr22QuotePage = new Sr22QuotePage();
         String actualPageTitle = sr22QuotePage.getPageTitle();

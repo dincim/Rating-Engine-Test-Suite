@@ -10,7 +10,7 @@ public class RentersQuotePageTest extends BaseTest {
         super();
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyPageTitle(){
         RentersQuotePage rentersQuotePage = new RentersQuotePage();
         String actualPageTitle = rentersQuotePage.getPageTitle();

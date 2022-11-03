@@ -8,7 +8,7 @@ import re.base.TestBase;
 
 public class FindAnOfficePageTest extends BaseTest {
 
-    @Test
+    @Test(enabled = false)
     public void verifyPageTitle(){
         FindAnOfficePage findAnOfficePage =new FindAnOfficePage();
         findAnOfficePage.getFindAnOfficePageTitle();

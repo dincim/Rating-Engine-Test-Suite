@@ -11,7 +11,7 @@ public class CareersPageTest extends BaseTest {
         super();
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyPageTitle(){
         CareersPage careersPage = new CareersPage();
         String actualPageTitle = careersPage.getPageTitle();

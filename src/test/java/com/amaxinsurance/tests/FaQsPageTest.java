@@ -10,7 +10,7 @@ public class FaQsPageTest extends BaseTest {
         super();
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyPageTitle(){
         FaQsPage faQsPage = new FaQsPage();
         String actualPageTitle = faQsPage.getPageTitle();

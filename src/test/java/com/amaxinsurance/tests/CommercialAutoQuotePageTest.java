@@ -11,7 +11,7 @@ public class CommercialAutoQuotePageTest extends BaseTest {
     public CommercialAutoQuotePageTest() {
         super();
     }
-    @Test
+    @Test(enabled = false)
     public void verifyPageTitle() throws Exception {
         CommercialAutoQuotePage commercialAutoQuotePage= new CommercialAutoQuotePage();
         commercialAutoQuotePage.getCommercialAutoQuotePageTitle();

@@ -10,7 +10,7 @@ public class MotorCycleQuotePageTest extends BaseTest {
         super();
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyPageTitle(){
         MotorCycleQuotePage motorCycleQuotePage = new MotorCycleQuotePage();
         String actualPageTitle = motorCycleQuotePage.verifyPageTitle();

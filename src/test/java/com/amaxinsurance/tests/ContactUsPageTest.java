@@ -12,7 +12,7 @@ public class ContactUsPageTest extends BaseTest {
         super();
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyPageTitle() {
         ContactUsPage contactUsPage=new ContactUsPage();
         contactUsPage.getContactUsPageTitle();

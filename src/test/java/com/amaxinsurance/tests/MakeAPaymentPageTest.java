@@ -10,7 +10,7 @@ public class MakeAPaymentPageTest extends BaseTest {
     public MakeAPaymentPageTest() {
         super();
     }
-    @Test
+    @Test(enabled = false)
     public void verifyPageTitle() {
         MakeAPaymentPage makeAPaymentPage = new MakeAPaymentPage();
         String makeaPaymentPageTitle = makeAPaymentPage.verifyMakeApaymentPageTitle();

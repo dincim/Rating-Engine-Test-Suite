@@ -9,7 +9,7 @@ public class HomeownersQuotePageTest extends BaseTest {
     public HomeownersQuotePageTest() {
         super();
     }
-    @Test
+    @Test(enabled = false)
     public void verifyPageTitle(){
         HomeownersQuotePage homeownersQuotePage = new HomeownersQuotePage();
         String actualPageTitle = homeownersQuotePage.getTitle();

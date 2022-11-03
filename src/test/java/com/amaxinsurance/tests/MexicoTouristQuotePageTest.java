@@ -10,7 +10,7 @@ public class MexicoTouristQuotePageTest extends BaseTest {
         super();
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyPageTitle() {
         MexicoTouristQuotePage mexicoTouristQuotePageTest = new MexicoTouristQuotePage();
         String actualPageTitle = mexicoTouristQuotePageTest.verifyPageTitle();

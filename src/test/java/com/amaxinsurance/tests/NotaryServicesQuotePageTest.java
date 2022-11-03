@@ -10,7 +10,7 @@ public class NotaryServicesQuotePageTest extends BaseTest {
         super();
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyPageTitle(){
         NotaryServicesQuotePage notaryServicesQuotePage = new NotaryServicesQuotePage();
         String actualPageTitle = notaryServicesQuotePage.verifyPageTitle();
