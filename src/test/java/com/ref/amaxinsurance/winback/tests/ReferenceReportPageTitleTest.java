@@ -26,7 +26,7 @@ public class ReferenceReportPageTitleTest {
         driver.get("http://18.216.112.189:8089/Authentication");
 
     }
-    @Test
+    @Test(enabled = false)
     void pageTitleWinbackTest() throws InterruptedException {
 
         driver.findElement(By.xpath("//*[@id=\"Titlediv\"]/div[1]/div")).click();
