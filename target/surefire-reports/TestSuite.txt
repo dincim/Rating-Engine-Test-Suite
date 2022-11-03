@@ -1,17 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 192.145 sec <<< FAILURE!
-getQuotePublicData(re.tests.GetQuotePublicDataTest)  Time elapsed: 100.911 sec  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container-1d368398d6"]/div/div/div/div[5]/div/div[5]/div[2]/div[2]/div[2]/div[3]/div[2]/a/div"}
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 182.827 sec <<< FAILURE!
+getQuotePublicData(re.tests.GetQuotePublicDataTest)  Time elapsed: 80.047 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container-1d368398d6"]/div/div/div/div[5]/div/div[5]/div[2]/div[1]/div[2]/div[3]/div[2]/a/div/span"}
   (Session info: chrome=107.0.5304.87)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'Matts-MBP', ip: '2600:8802:170d:5000:0:0:0:7157%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.0', java.version: '19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c18627e66e6391458d91f004e0f8da17, findElement {using=xpath, value=//*[@id="container-1d368398d6"]/div/div/div/div[5]/div/div[5]/div[2]/div[2]/div[2]/div[3]/div[2]/a/div}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/tl/cz3zsyk91m1...}, goog:chromeOptions: {debuggerAddress: localhost:50456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50456/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c18627e66e6391458d91f004e0f8da17
+Command: [be5bcc4f463b571e209894ab6d923150, findElement {using=xpath, value=//*[@id="container-1d368398d6"]/div/div/div/div[5]/div/div[5]/div[2]/div[1]/div[2]/div[3]/div[2]/a/div/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/tl/cz3zsyk91m1...}, goog:chromeOptions: {debuggerAddress: localhost:57794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57794/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be5bcc4f463b571e209894ab6d923150
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -29,6 +29,6 @@ Session ID: c18627e66e6391458d91f004e0f8da17
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-	at re.pages.GetQuotePublicDataPage.getUAICPageTitle(GetQuotePublicDataPage.java:203)
-	at re.tests.GetQuotePublicDataTest.getQuotePublicData(GetQuotePublicDataTest.java:29)
+	at re.pages.GetQuotePublicDataPage.getSeaHarborPageTitle(GetQuotePublicDataPage.java:175)
+	at re.tests.GetQuotePublicDataTest.getQuotePublicData(GetQuotePublicDataTest.java:28)
 

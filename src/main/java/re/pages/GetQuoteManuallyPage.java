@@ -142,7 +142,7 @@ public class GetQuoteManuallyPage extends BaseTest {
         Thread.sleep(3000);
 
         finishBtn.click();
-//        Thread.sleep(3000);
+        Thread.sleep(3000);
 //
 //        buyNowBtn.click();
 //
