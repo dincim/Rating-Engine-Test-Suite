@@ -10,13 +10,6 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- re.tests.GetQuoteManuallyTest -->
-      <class name="com.ref.amaxinsurance.winback.tests.ReferenceReportPageTitleTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="pageTitleWinbackTest"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.ref.amaxinsurance.winback.tests.ReferenceReportPageTitleTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

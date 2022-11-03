@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -105,11 +105,6 @@
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Command_line_suite" title="re.tests.GetQuoteManuallyTest" class="method navigator-link" hash-for-method="getQuoteManually">getQuoteManually</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="com.ref.amaxinsurance.winback.tests.ReferenceReportPageTitleTest" class="method navigator-link" hash-for-method="pageTitleWinbackTest">pageTitleWinbackTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Command_line_suite -->
@@ -155,9 +150,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
 System info: host: &apos;Matts-MBP&apos;, ip: &apos;2600:8802:170d:5000:0:0:0:7157%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.0&apos;, java.version: &apos;19&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [148d0aaae5c618fabb586094fe5e5229, findElement {using=xpath, value=//*[@id=&quot;container-1d368398d6&quot;]/div/div/div/div[5]/div/div[5]/div[2]/div/div[2]/div[3]/div[2]/a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/tl/cz3zsyk91m1...}, goog:chromeOptions: {debuggerAddress: localhost:65196}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:65196/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 148d0aaae5c618fabb586094fe5e5229
+Command: [9aac810d387eb4b2ebf62f8029975dcc, findElement {using=xpath, value=//*[@id=&quot;container-1d368398d6&quot;]/div/div/div/div[5]/div/div[5]/div[2]/div/div[2]/div[3]/div[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/tl/cz3zsyk91m1...}, goog:chromeOptions: {debuggerAddress: localhost:49896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49896/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9aac810d387eb4b2ebf62f8029975dcc
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -174,45 +169,6 @@ Session ID: 148d0aaae5c618fabb586094fe5e5229
 	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
 	at re.pages.GetQuoteManuallyPage.getQuoteManually(GetQuoteManuallyPage.java:147)
 	at re.tests.GetQuoteManuallyTest.getQuoteManually(GetQuoteManuallyTest.java:24)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-failed -->
-          <div class="suite-Command_line_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.ref.amaxinsurance.winback.tests.ReferenceReportPageTitleTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="pageTitleWinbackTest">
-                  </a> <!-- pageTitleWinbackTest -->
-                  <span class="method-name">pageTitleWinbackTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;Titlediv&quot;]/div[1]/div&quot;}
-  (Session info: chrome=107.0.5304.87)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;Matts-MBP&apos;, ip: &apos;2600:8802:170d:5000:0:0:0:7157%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.0&apos;, java.version: &apos;19&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5445ddcb77fa162072ac63c4eb9c16ea, findElement {using=xpath, value=//*[@id=&quot;Titlediv&quot;]/div[1]/div}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/tl/cz3zsyk91m1...}, goog:chromeOptions: {debuggerAddress: localhost:65039}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:65039/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5445ddcb77fa162072ac63c4eb9c16ea
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at com.ref.amaxinsurance.winback.tests.ReferenceReportPageTitleTest.pageTitleWinbackTest(ReferenceReportPageTitleTest.java:32)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
@@ -313,19 +269,15 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getQuoteManually')
-data.setCell(0, 2, 're.tests.GetQuoteManuallyTest')
-data.setCell(0, 3, 74036);
+data.setCell(0, 1, 'getQuotePublicData')
+data.setCell(0, 2, 're.tests.GetQuotePublicDataTest')
+data.setCell(0, 3, 89594);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'getQuotePublicData')
-data.setCell(1, 2, 're.tests.GetQuotePublicDataTest')
-data.setCell(1, 3, 66849);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'pageTitleWinbackTest')
-data.setCell(2, 2, 'com.ref.amaxinsurance.winback.tests.ReferenceReportPageTitleTest')
-data.setCell(2, 3, 20037);
+data.setCell(1, 1, 'getQuoteManually')
+data.setCell(1, 2, 're.tests.GetQuoteManuallyTest')
+data.setCell(1, 3, 75329);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
@@ -345,18 +297,81 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Command_line_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">25 ignored methods</span>
+            <span class="header-content">26 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.amaxinsurance.tests.MotorCycleQuotePageTest</span>
+              <span class="ignored-class-name">com.amaxinsurance.tests.ContactUsPageTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">verifyPageTitle</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.amaxinsurance.tests.ContactUsPageTest</span>
+              <span class="ignored-class-name">com.amaxinsurance.tests.OurCompanyPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyPageTitle</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.ref.amaxinsurance.winback.tests.ReferenceReportPageTitleTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">pageTitleWinbackTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amaxinsurance.tests.ReferAFriendPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyPageTitle</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amaxinsurance.tests.MexicoTouristQuotePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyPageTitle</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amaxinsurance.tests.RentersQuotePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyPageTitle</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amaxinsurance.tests.SuretyBondQuotePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyPageTitle</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amaxinsurance.tests.MobileHomeQuotePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyPageTitle</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amaxinsurance.tests.HomeownersQuotePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyPageTitle</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amaxinsurance.tests.BoatsAndWatercraftPageQuoteTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyPageTitle</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amaxinsurance.tests.MotorCycleQuotePageTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">verifyPageTitle</span>
                 <br/>
@@ -384,27 +399,6 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.amaxinsurance.tests.OurCompanyPageTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verifyPageTitle</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.amaxinsurance.tests.ReferAFriendPageTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verifyPageTitle</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.amaxinsurance.tests.MexicoTouristQuotePageTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verifyPageTitle</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
               <span class="ignored-class-name">com.amaxinsurance.tests.CommercialAutoQuotePageTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">verifyPageTitle</span>
@@ -413,13 +407,6 @@ return data;
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.amaxinsurance.tests.NewsAndEventsPageTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verifyPageTitle</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.amaxinsurance.tests.RentersQuotePageTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">verifyPageTitle</span>
                 <br/>
@@ -440,23 +427,9 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.amaxinsurance.tests.SuretyBondQuotePageTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verifyPageTitle</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
               <span class="ignored-class-name">com.budgetandvarianceapp.tests.BudgetAndVarianceHomePageTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">getPageTitleTest</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.amaxinsurance.tests.MobileHomeQuotePageTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verifyPageTitle</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -491,13 +464,6 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.amaxinsurance.tests.HomeownersQuotePageTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verifyPageTitle</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
               <span class="ignored-class-name">com.amaxinsurance.tests.NotaryServicesQuotePageTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">verifyPageTitle</span>
@@ -511,13 +477,6 @@ return data;
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.amaxinsurance.tests.BoatsAndWatercraftPageQuoteTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verifyPageTitle</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Command_line_suite" class="panel">
@@ -526,52 +485,35 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.ref.amaxinsurance.winback.tests.ReferenceReportPageTitleTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">pageTitleWinbackTest</span>
-                <span class="method-start">8300 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">28348 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">re.tests.GetQuotePublicDataTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">28463 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">getQuotePublicData</span>
-                <span class="method-start">55071 ms</span>
+                <span class="method-start">27964 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">121920 ms</span>
+                <span class="method-start">117559 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">re.tests.GetQuoteManuallyTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">121921 ms</span>
+                <span class="method-start">117560 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">getQuoteManually</span>
-                <span class="method-start">149928 ms</span>
+                <span class="method-start">145398 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">223966 ms</span>
+                <span class="method-start">220740 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

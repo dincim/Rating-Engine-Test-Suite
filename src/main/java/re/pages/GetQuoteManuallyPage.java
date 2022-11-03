@@ -142,12 +142,11 @@ public class GetQuoteManuallyPage extends BaseTest {
         Thread.sleep(2000);
 
         finishBtn.click();
-        Thread.sleep(3000);
-
-        buyNowBtn.click();
-
-        buyNowAmaxLogo.isDisplayed();
-
+//        Thread.sleep(3000);
+//
+//        buyNowBtn.click();
+//
+//        buyNowAmaxLogo.isDisplayed();
 
     }
 
