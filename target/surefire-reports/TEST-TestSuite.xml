@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="1" name="TestSuite" time="164.939" errors="0" skipped="0">
+<testsuite tests="2" failures="1" name="TestSuite" time="142.353" errors="0" skipped="0">
   <properties>
-    <property name="JOB_NAME" value="Amax Rating Engine Test automation"/>
+    <property name="JOB_NAME" value="Amax Test Automation"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="PWD" value="/Users/mattdinc/Documents/Jenkins"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/Amax%20Rating%20Engine%20Test%20automation/11/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/Amax%20Test%20Automation/13/display/redirect?page=tests"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="JENKINS_HOME" value="/Users/mattdinc/.jenkins"/>
     <property name="PATH" value="/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"/>
@@ -13,7 +13,7 @@
     <property name="POM_ARTIFACTID" value="RatingEngineTestAutomation"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="TERM_PROGRAM" value="Apple_Terminal"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="TERM_SESSION_ID" value="DD780FE2-602E-4FEA-90C0-16BA352FD7DA"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="POM_DISPLAYNAME" value="RatingEngineTestAutomation"/>
@@ -25,9 +25,9 @@
     <property name="SECURITYSESSIONID" value="186a4"/>
     <property name="stdout.encoding" value="UTF-8"/>
     <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="Amax Rating Engine Test automation"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Amax%20Rating%20Engine%20Test%20automation/11/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#11"/>
+    <property name="JOB_BASE_NAME" value="Amax Test Automation"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Amax%20Test%20Automation/13/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#13"/>
     <property name="TMPDIR" value="/var/folders/tl/cz3zsyk91m11bw6889wjmshc0000gn/T/"/>
     <property name="sun.boot.library.path" value="/Users/mattdinc/Library/Java/JavaVirtualMachines/openjdk-19/Contents/Home/lib"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
@@ -39,7 +39,7 @@
     <property name="NODE_NAME" value="built-in"/>
     <property name="TERM" value="xterm-256color"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="BUILD_ID" value="11"/>
+    <property name="BUILD_ID" value="13"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="SHELL" value="/bin/zsh"/>
     <property name="maven.conf" value="/Users/mattdinc/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/conf"/>
@@ -51,14 +51,14 @@
     <property name="java.home" value="/Users/mattdinc/Library/Java/JavaVirtualMachines/openjdk-19/Contents/Home"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="os.version" value="13.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Amax%20Rating%20Engine%20Test%20automation/11/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Amax%20Test%20Automation/13/display/redirect"/>
     <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
     <property name="path.separator" value=":"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/Amax%20Rating%20Engine%20Test%20automation/11/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/Amax%20Test%20Automation/13/display/redirect?page=artifacts"/>
     <property name="java.vm.version" value="19+36-2238"/>
-    <property name="GIT_PREVIOUS_COMMIT" value="5207df283c558dfc5e5d725e01f85878c9909485"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="34114bcff7160897269be6966643df2a6230d70c"/>
     <property name="stderr.encoding" value="UTF-8"/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Amax%20Rating%20Engine%20Test%20automation/display/redirect"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Amax%20Test%20Automation/display/redirect"/>
     <property name="SHLVL" value="1"/>
     <property name="_" value="/usr/bin/java"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
@@ -70,7 +70,7 @@
     <property name="POM_GROUPID" value="org.example"/>
     <property name="GIT_COMMITTER_NAME" value="muradautomation"/>
     <property name="user.home" value="/Users/mattdinc"/>
-    <property name="BUILD_TAG" value="jenkins-Amax Rating Engine Test automation-11"/>
+    <property name="BUILD_TAG" value="jenkins-Amax Test Automation-13"/>
     <property name="JENKINS_SERVER_COOKIE" value="33964776b863b6a9"/>
     <property name="XPC_SERVICE_NAME" value="0"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
@@ -82,7 +82,7 @@
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="maven.home" value="/Users/mattdinc/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/mattdinc/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven /Users/mattdinc/.jenkins/war/WEB-INF/lib/remoting-3068.v09b_895d8da_14.jar /Users/mattdinc/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.14.jar /Users/mattdinc/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.14.jar 49753"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/mattdinc/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven /Users/mattdinc/.jenkins/war/WEB-INF/lib/remoting-3068.v09b_895d8da_14.jar /Users/mattdinc/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.14.jar /Users/mattdinc/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.14.jar 50450"/>
     <property name="java.class.path" value="/Users/mattdinc/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.14.jar:/Users/mattdinc/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/boot/plexus-classworlds-2.6.0.jar:/Users/mattdinc/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/conf/logging"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="jdk.debug" value="release"/>
@@ -97,52 +97,51 @@
     <property name="PATH+MAVEN" value="/Users/mattdinc/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/bin"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="OLDPWD" value="/Users/mattdinc/Documents"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Amax%20Rating%20Engine%20Test%20automation/11/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Amax%20Test%20Automation/13/"/>
     <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.QMyasDrivr/Listeners"/>
     <property name="os.arch" value="aarch64"/>
     <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
     <property name="user.dir" value="/Users/mattdinc/Documents/Rating-Engine-Test-Suite"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/Amax%20Rating%20Engine%20Test%20automation/"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Amax%20Test%20Automation/"/>
     <property name="apple.awt.application.name" value="Maven35Main"/>
     <property name="MAVEN_HOME" value="/Users/mattdinc/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="11"/>
+    <property name="BUILD_NUMBER" value="13"/>
     <property name="TERM_PROGRAM_VERSION" value="447"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="GIT_BRANCH" value="origin/newb"/>
-    <property name="GIT_COMMIT" value="5207df283c558dfc5e5d725e01f85878c9909485"/>
+    <property name="GIT_COMMIT" value="34114bcff7160897269be6966643df2a6230d70c"/>
     <property name="__CFBundleIdentifier" value="com.apple.Terminal"/>
     <property name="LANG" value="en_US.UTF-8"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="maven3.interceptor" value="/Users/mattdinc/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.14.jar"/>
-    <property name="WORKSPACE_TMP" value="/Users/mattdinc/.jenkins/workspace/Amax Rating Engine Test automation@tmp"/>
-    <property name="WORKSPACE" value="/Users/mattdinc/.jenkins/workspace/Amax Rating Engine Test automation"/>
+    <property name="WORKSPACE_TMP" value="/Users/mattdinc/.jenkins/workspace/Amax Test Automation@tmp"/>
+    <property name="WORKSPACE" value="/Users/mattdinc/.jenkins/workspace/Amax Test Automation"/>
     <property name="maven3.interceptor.common" value="/Users/mattdinc/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.14.jar"/>
     <property name="java.specification.version" value="19"/>
     <property name="USER" value="mattdinc"/>
     <property name="GIT_URL" value="https://github.com/dincim/Rating-Engine-Test-Suite"/>
   </properties>
-  <testcase classname="re.tests.GetQuotePublicDataTest" name="getQuotePublicData" time="89.596"/>
-  <testcase classname="re.tests.GetQuoteManuallyTest" name="getQuoteManually" time="75.343">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;container-1d368398d6&quot;]/div/div/div/div[5]/div/div[5]/div[2]/div/div[2]/div[3]/div[2]/a&quot;}
+  <testcase classname="re.tests.GetQuotePublicDataTest" name="getQuotePublicData" time="100.911">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;container-1d368398d6&quot;]/div/div/div/div[5]/div/div[5]/div[2]/div[2]/div[2]/div[3]/div[2]/a/div&quot;}
   (Session info: chrome=107.0.5304.87)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
 System info: host: &apos;Matts-MBP&apos;, ip: &apos;2600:8802:170d:5000:0:0:0:7157%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.0&apos;, java.version: &apos;19&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9aac810d387eb4b2ebf62f8029975dcc, findElement {using=xpath, value=//*[@id=&quot;container-1d368398d6&quot;]/div/div/div/div[5]/div/div[5]/div[2]/div/div[2]/div[3]/div[2]/a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/tl/cz3zsyk91m1...}, goog:chromeOptions: {debuggerAddress: localhost:49896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49896/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9aac810d387eb4b2ebf62f8029975dcc" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;container-1d368398d6&quot;]/div/div/div/div[5]/div/div[5]/div[2]/div/div[2]/div[3]/div[2]/a&quot;}
+Command: [c18627e66e6391458d91f004e0f8da17, findElement {using=xpath, value=//*[@id=&quot;container-1d368398d6&quot;]/div/div/div/div[5]/div/div[5]/div[2]/div[2]/div[2]/div[3]/div[2]/a/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/tl/cz3zsyk91m1...}, goog:chromeOptions: {debuggerAddress: localhost:50456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50456/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c18627e66e6391458d91f004e0f8da17" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;container-1d368398d6&quot;]/div/div/div/div[5]/div/div[5]/div[2]/div[2]/div[2]/div[3]/div[2]/a/div&quot;}
   (Session info: chrome=107.0.5304.87)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
 System info: host: &apos;Matts-MBP&apos;, ip: &apos;2600:8802:170d:5000:0:0:0:7157%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.0&apos;, java.version: &apos;19&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9aac810d387eb4b2ebf62f8029975dcc, findElement {using=xpath, value=//*[@id=&quot;container-1d368398d6&quot;]/div/div/div/div[5]/div/div[5]/div[2]/div/div[2]/div[3]/div[2]/a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/tl/cz3zsyk91m1...}, goog:chromeOptions: {debuggerAddress: localhost:49896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49896/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9aac810d387eb4b2ebf62f8029975dcc
+Command: [c18627e66e6391458d91f004e0f8da17, findElement {using=xpath, value=//*[@id=&quot;container-1d368398d6&quot;]/div/div/div/div[5]/div/div[5]/div[2]/div[2]/div[2]/div[3]/div[2]/a/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/tl/cz3zsyk91m1...}, goog:chromeOptions: {debuggerAddress: localhost:50456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50456/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c18627e66e6391458d91f004e0f8da17
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -160,21 +159,30 @@ Session ID: 9aac810d387eb4b2ebf62f8029975dcc
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-	at re.pages.GetQuoteManuallyPage.getQuoteManually(GetQuoteManuallyPage.java:147)
-	at re.tests.GetQuoteManuallyTest.getQuoteManually(GetQuoteManuallyTest.java:24)
+	at re.pages.GetQuotePublicDataPage.getUAICPageTitle(GetQuotePublicDataPage.java:203)
+	at re.tests.GetQuotePublicDataTest.getQuotePublicData(GetQuotePublicDataTest.java:29)
 </failure>
-    <system-err>Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 49959
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@5d5eef3d
+Insuror Atlas Consumer Web System
+</system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 53915
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Nov 02, 2022 10:03:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Nov 02, 2022 10:42:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Nov 02, 2022 10:03:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Nov 02, 2022 10:42:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: a no-op implementation
-Nov 02, 2022 10:03:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Nov 02, 2022 10:42:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 107.
-Nov 02, 2022 10:03:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Nov 02, 2022 10:42:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.1` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s.
 </system-err>
   </testcase>
+  <testcase classname="re.tests.GetQuoteManuallyTest" name="getQuoteManually" time="41.442"/>
 </testsuite>

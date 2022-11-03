@@ -84,14 +84,14 @@ public class GetQuoteManuallyPage extends BaseTest {
     }
 
     public void getQuoteManually() throws InterruptedException {
-        zipCode.sendKeys("75074");
+        zipCode.sendKeys("75247");
         getQuoteBtn.click();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
 
-        driverFirstName.sendKeys("Murat");
-        driverLastName.sendKeys("Tester");
-        circleBtn.sendKeys("01012000");
-        Thread.sleep(2000);
+        driverFirstName.sendKeys("Amax");
+        driverLastName.sendKeys("Test");
+        circleBtn.sendKeys("01181999");
+        Thread.sleep(3000);
 
         JavascriptExecutor j = (JavascriptExecutor) driver;
         j.executeScript("window.scrollBy(0,350)", "");
@@ -99,47 +99,47 @@ public class GetQuoteManuallyPage extends BaseTest {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].click();",startBtn);
         //startBtn.click();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
 
 
-        driverEmail.sendKeys("test@mail.com");
-        driverPhone.sendKeys("1111111111");
+        driverEmail.sendKeys("test@gmail.com");
+        driverPhone.sendKeys("9875674325");
         policyCheckBox.click();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         nextBtn.click();
 
-        driverAddress.sendKeys("61 Plano");
+        driverAddress.sendKeys("3030 North Stemmons Fwy");
         driverGender.click();
         driverMaritalStatus.click();
         driverInsuredStatus.click();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
 
 
         js.executeScript("arguments[0].click();",driverSummaryNextBtn);
 //      driverSummaryNextBtn.click();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
 
 
         js.executeScript("arguments[0].click();",vehicleNextBtn);
        // vehicleNextBtn.click();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
 
         Select drpVehicleYear = new Select(selectCarYear);
-        drpVehicleYear.selectByVisibleText("2021");
+        drpVehicleYear.selectByVisibleText("2020");
         Thread.sleep(3000);
         Select drpVehicleMake = new Select(selectCarMake);
-        drpVehicleMake.selectByVisibleText("ACURA");
+        drpVehicleMake.selectByVisibleText("AUDI");
         Thread.sleep(3000);
         Select drpVehicleModel = new Select(selectCarModel);
-        drpVehicleModel.selectByVisibleText("MDX");
+        drpVehicleModel.selectByVisibleText("A3 PREMIUM");
         Thread.sleep(3000);
         addVehicleBtn.click();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
 
         nextPolicyBtn.click();
 
         covMinStateLiability.click();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
 
         finishBtn.click();
 //        Thread.sleep(3000);
