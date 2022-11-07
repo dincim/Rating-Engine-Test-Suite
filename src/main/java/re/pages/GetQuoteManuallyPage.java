@@ -78,6 +78,9 @@ public class GetQuoteManuallyPage extends BaseTest {
     @FindBy(xpath = "//*[@id='logo2']")
     WebElement buyNowAmaxLogo;
 
+    @FindBy(xpath = "//*[contains(text(),'Your Best Quotes')]")
+    WebElement yourBestQuotes;
+
 
     public GetQuoteManuallyPage(){
         PageFactory.initElements(driver,this);
@@ -143,6 +146,10 @@ public class GetQuoteManuallyPage extends BaseTest {
 
         finishBtn.click();
         Thread.sleep(3000);
+
+        Assert.assertTrue(yourBestQuotes.isDisplayed());
+
+
 //
 //        buyNowBtn.click();
 //
