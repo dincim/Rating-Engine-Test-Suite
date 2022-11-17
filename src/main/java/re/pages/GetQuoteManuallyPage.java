@@ -40,6 +40,8 @@ public class GetQuoteManuallyPage extends BaseTest {
 
     @FindBy(xpath = "//*[@id='driver-driveraddress']")
     WebElement driverAddress;
+    @FindBy(id = "driver-driverzipcode")
+    WebElement manualZipCode;
 
     @FindBy(xpath = "//*[@id='male']")
     WebElement driverGender;
@@ -91,7 +93,7 @@ public class GetQuoteManuallyPage extends BaseTest {
         getQuoteBtn.click();
         Thread.sleep(3000);
 
-        driverFirstName.sendKeys("Amax");
+        driverFirstName.sendKeys("Automated");
         driverLastName.sendKeys("Test");
         circleBtn.sendKeys("01181999");
         Thread.sleep(3000);
@@ -112,6 +114,7 @@ public class GetQuoteManuallyPage extends BaseTest {
         nextBtn.click();
 
         driverAddress.sendKeys("3030 North Stemmons Fwy");
+        manualZipCode.sendKeys("75247");
         driverGender.click();
         driverMaritalStatus.click();
         driverInsuredStatus.click();
@@ -148,7 +151,6 @@ public class GetQuoteManuallyPage extends BaseTest {
         Thread.sleep(3000);
 
         Assert.assertTrue(yourBestQuotes.isDisplayed());
-
 
 //
 //        buyNowBtn.click();

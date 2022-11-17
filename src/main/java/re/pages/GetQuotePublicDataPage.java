@@ -17,8 +17,7 @@ import java.util.ArrayList;
 import static org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable;
 
 public class GetQuotePublicDataPage extends BaseTest {
-
-
+    
     @FindBy(xpath = "//*[@id=\"container-b6c3c4c729\"]/div/div[1]/div/input")
     WebElement zipCode;
     @FindBy(xpath = "//*[@id=\"container-b6c3c4c729\"]/div/div[2]/button")
@@ -101,13 +100,13 @@ public class GetQuotePublicDataPage extends BaseTest {
     }
 
     public void getQuotePublicData() throws InterruptedException {
-        zipCode.sendKeys("75074");
+        zipCode.sendKeys("75247");
         getQuoteBtn.click();
         Thread.sleep(2000);
 
-        driversLicense.sendKeys("42272542");
+        driversLicense.sendKeys("47466110");
         Thread.sleep(2000);
-        driverDateOfBirth.sendKeys("01131991");
+        driverDateOfBirth.sendKeys("01011990");
         Thread.sleep(2000);
 
         Actions act = new Actions(driver);
