@@ -15,7 +15,7 @@ public class BaseTest extends TestBase{
     @AfterMethod
    public void tearDown() throws EmailException {
         //driver.quit();
-        //sendEmail();
+        sendEmail();
     }
 }
 

@@ -30,7 +30,7 @@ public class SendEmail {
 //        email.send();
 //    }
 
-    public static void main(String[] args) {
+    public static void sendEmail() {
         // Recipient's email ID needs to be mentioned.
         String to = "dincmurad@gmail.com";
 
@@ -51,7 +51,7 @@ public class SendEmail {
 
         // Get the Session object.
         Session session = Session.getInstance(props,
-                new javax.mail.Authenticator() {
+                new Authenticator() {
                     protected PasswordAuthentication getPasswordAuthentication() {
                         return new PasswordAuthentication(username, password);
                     }
@@ -103,4 +103,4 @@ public class SendEmail {
             throw new RuntimeException(e);
         }
     }
-    }
+}

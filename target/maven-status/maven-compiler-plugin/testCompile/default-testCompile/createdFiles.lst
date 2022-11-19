@@ -7,8 +7,9 @@ com/amaxinsurance/tests/SellYourAgencyPageTest.class
 com/amaxinsurance/tests/ReferAFriendPageTest.class
 com/amaxinsurance/tests/MakaAClaimPageTest.class
 com/budgetandvarianceapp/tests/BudgetAndVarianceHomePageTest.class
+listenerconcept/ExtentReporterNG.class
+sendingEmail/SendEmail$1.class
 sendingEmail/SendEmail.class
-listenerconcept/CustomListener.class
 com/amaxinsurance/tests/OurCompanyPageTest.class
 com/amaxinsurance/tests/CommercialAutoQuotePageTest.class
 com/amaxinsurance/tests/GeneralLiabilityQuotePageTest.class

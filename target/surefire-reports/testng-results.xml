@@ -2,34 +2,34 @@
 <testng-results ignored="26" total="28" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-19T09:20:39 PST" name="Command line suite" finished-at="2022-11-19T09:24:08 PST" duration-ms="209175">
+  <suite started-at="2022-11-19T13:49:55 PST" name="Command line suite" finished-at="2022-11-19T13:53:14 PST" duration-ms="199188">
     <groups>
     </groups>
-    <test started-at="2022-11-19T09:20:39 PST" name="Command line test" finished-at="2022-11-19T09:24:08 PST" duration-ms="209175">
+    <test started-at="2022-11-19T13:49:55 PST" name="Command line test" finished-at="2022-11-19T13:53:14 PST" duration-ms="199188">
       <class name="re.tests.GetQuotePublicDataTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:re.tests.GetQuotePublicDataTest@29f69090]" started-at="2022-11-19T09:20:39 PST" name="setUp" finished-at="2022-11-19T09:21:07 PST" duration-ms="28566" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:re.tests.GetQuotePublicDataTest@400cff1a]" started-at="2022-11-19T13:49:55 PST" name="setUp" finished-at="2022-11-19T13:50:24 PST" duration-ms="28858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getQuotePublicData()[pri:0, instance:re.tests.GetQuotePublicDataTest@29f69090]" started-at="2022-11-19T09:21:07 PST" name="getQuotePublicData" finished-at="2022-11-19T09:22:24 PST" duration-ms="76339" status="PASS">
+        <test-method signature="getQuotePublicData()[pri:0, instance:re.tests.GetQuotePublicDataTest@400cff1a]" started-at="2022-11-19T13:50:24 PST" name="getQuotePublicData" finished-at="2022-11-19T13:51:39 PST" duration-ms="75005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getQuotePublicData -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:re.tests.GetQuotePublicDataTest@29f69090]" started-at="2022-11-19T09:22:24 PST" name="tearDown" finished-at="2022-11-19T09:22:26 PST" duration-ms="2428" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:re.tests.GetQuotePublicDataTest@400cff1a]" started-at="2022-11-19T13:51:39 PST" name="tearDown" finished-at="2022-11-19T13:51:39 PST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- re.tests.GetQuotePublicDataTest -->
       <class name="re.tests.GetQuoteManuallyTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:re.tests.GetQuoteManuallyTest@568bf312]" started-at="2022-11-19T09:22:26 PST" name="setUp" finished-at="2022-11-19T09:22:56 PST" duration-ms="29555" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:re.tests.GetQuoteManuallyTest@275710fc]" started-at="2022-11-19T13:51:39 PST" name="setUp" finished-at="2022-11-19T13:52:05 PST" duration-ms="26427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getQuoteManually()[pri:0, instance:re.tests.GetQuoteManuallyTest@568bf312]" started-at="2022-11-19T09:22:56 PST" name="getQuoteManually" finished-at="2022-11-19T09:24:04 PST" duration-ms="68457" status="PASS">
+        <test-method signature="getQuoteManually()[pri:0, instance:re.tests.GetQuoteManuallyTest@275710fc]" started-at="2022-11-19T13:52:05 PST" name="getQuoteManually" finished-at="2022-11-19T13:53:14 PST" duration-ms="68876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getQuoteManually -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:re.tests.GetQuoteManuallyTest@568bf312]" started-at="2022-11-19T09:24:04 PST" name="tearDown" finished-at="2022-11-19T09:24:08 PST" duration-ms="3814" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:re.tests.GetQuoteManuallyTest@275710fc]" started-at="2022-11-19T13:53:14 PST" name="tearDown" finished-at="2022-11-19T13:53:14 PST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
