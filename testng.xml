@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Autamation Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/Murat Dinc/IdeaProjects/RatingEngineTestAutomation">
+    <listeners>
+    <listener class-name="listenerconcept.ExtentReporterNG"></listener>
+    </listeners>
+    
+    <test verbose="2" preserve-order="true" name="Amax Test Automation Test Cases">
+
         <packages>
             <!--<package name="com.amaxinsurance.tests"></package>-->
             <package name="re.tests"></package>

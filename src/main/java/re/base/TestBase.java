@@ -10,6 +10,14 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
 import re.util.TestUtil;
 
+import javax.activation.DataHandler;
+import javax.activation.DataSource;
+import javax.activation.FileDataSource;
+import javax.mail.*;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeBodyPart;
+import javax.mail.internet.MimeMessage;
+import javax.mail.internet.MimeMultipart;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -63,16 +71,5 @@ public class TestBase {
         driver.get(prop.getProperty("url"));
 
     }
-    public static void sendEmail() throws EmailException {
-        Email email = new SimpleEmail();
-        email.setHostName("smtp.gmail.com");
-        email.setSmtpPort(465);
-        email.setAuthenticator(new DefaultAuthenticator("dincautotest@gmail.com", "zwtjvkyhouvymhwm"));
-        email.setSSLOnConnect(true);
-        email.setFrom("dincmurad@gmail.com");
-        email.setSubject("Amax Automation Test Report");
-        email.setMsg("This is a test mail ... :-)");
-        email.addTo("dincmurad@gmail.com");
-        email.send();
-    }
+
 }
